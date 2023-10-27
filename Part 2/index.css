@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: #ecf4fd;
+}
+
+header{
+    position: absolute;
+    background-image:url("./Photos/mainBackground.png");
+    height: 900px;
+    width: 1000px;
+    left: 20%;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-content:space-between;
+}
+
+header nav img{
+    position: absolute;
+    margin-left: -540px;
+    top: 1%;
+}
+
+header ul{
+    position: absolute;
+    display: flex;
+    top: 3.8%;
+    left: 50%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+header ul li a{
+    justify-content: space-between;
+    align-content: space-around;
+    color: #ffff;
+    text-decoration: none;
+    gap: 25px;
+    padding: 10px;
+}
+
+header hr{
+    width: 900px;
+    height: 2px;
+    font-weight: 700;
+    background-color: #fff;
+    margin-top: 80px;
+    border: 2px solid #ffff;
+    margin-left: 5%;
+}
+
+
+
+.dialog{
+       position: absolute;
+       top: 20%;
+       left: 25%;
+       font-size: 25px;
+       color: #fff;
+       font-weight: 600;
+}
+
+.dialog button{
+    margin: 20px;
+    height: 60px;
+    width: 130px;
+    border-radius: 40px;
+    background-color: #6867df;
+    border: 0px none #6867df;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.my-logos{
+    position: absolute;
+    top: 100%;
+    left: 24%;
+    align-self: center;
+    height: 100px;
+    width: 880px;
+    background-color: #fff;
+    border-radius: 22px;
+}
+
+.my-logos img{
+    height: 50px;
+    width: 120px;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+    margin-left: 5px;
+}
+
+.cards-wrapper-section{
+    position: absolute;
+    height: 1200px;
+    width: 900px;
+    top: 125%;
+}
+
+.cards-wrapper-section h1{
+    position: relative;
+        left: 40%;
+        justify-content: center;
+        text-align: center;
+        font-size: 70px;
+        font-weight: 700;
+        /* color: #fff; */
+    }
+
+.cards-wrapper-section img{
+    height: 220px;
+    width: 255px;
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.index{
+    display: flex;
+    margin: 80px 360px;
+    gap: 80px;
+    /* z-index: -1; */
+}
+
+.index img{
+    z-index: -2;
+}
+
+.name{
+    background-color: #fff;
+    height: 85px;
+    width: 200px;
+     border-radius: 20px;
+     /* z-index: 2; */
+     margin: -40px 20px;
+     text-align: left;
+     box-shadow: 2px 2px 2px 2px rgb(113, 108, 108);
+     font-size: 20px;
+     font-weight: 800px;
+     gap: 15px;
+
+}
+
+.name  h3 {
+       margin-left: 20px;
+       background-color: #fff;
+}
+
+.name p{
+    margin-left: 20px;
+       background-color: #fff;
+}
+.index button{
+    height: 40px;
+    width: 90px;
+    border-radius: 20px;
+    border: 0px none #6867df;
+    background-color: #6867df;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: -180px;
+}
+
+.description{
+    position: absolute;
+    top: 310%;
+    left: 20%;
+    height: 800px;
+    width: 800px;
+}
+
+
+
+#featureImageBg1s{
+    height: 400px;
+    width: 520px;
+    margin-left: -2%;
+}
+#featureImageBg1p{
+    position: absolute;
+    height: 380px;
+    width: 400px;
+    top: -8%;
+    left: 11%;
+    border-radius: 20px;
+}
+
+.detail{
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    height: 150px;
+    width: 350px;
+    font-size: 23px;
+    gap: 45px;
+}
+
+
+.detail button, .detail_1 button{
+    height: 45px;
+    width: 150px;
+    background-color: #6867df;
+    border-radius: 30px;
+    border: 0px none #6867df;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.detail_1{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    height: 150px;
+    width: 400px;
+    font-size: 23px;
+    gap: 45px;
+}
+
+#featureImageBg2s{
+    position: relative;
+    left: 70%;
+     top: 180%;
+     margin-top: 80px;
+    height: 400px;
+    width: 450px;
+}
+
+
+#featureImageBg2p{
+    position: absolute;
+    height: 380px;
+    width: 400px;
+    left: 65%;
+    top: 52%;
+    border-radius:20px ;
+}
+
+
+footer{
+    position: absolute;
+    top: 440%;
+    left: 20%;
+}
+
+
+.suscribe{
+    height: 300px;
+    width: 800px;
+    background-color: #6867df;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    margin-left: 180px;
+}
+
+.suscribe h2{
+     padding-top: 30px;
+     font-weight: 800;
+     font-size: 38px;
+     text-align: center;
+}
+
+
+.suscribe form div{
+    position: absolute;
+     display: flex;
+     top: 70%;
+     left: 30%;
+}
+
+form input{
+    /* height: 40px; */
+    width: 260px;
+    padding: 15px;
+    border-radius: 15px;
+    border: 0px none #ecf4fd;
+    background-color: #5654d1;
+    font-size: 15px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+}
+
+form img{
+    position: absolute;
+    height: 30px;
+    width: 40px;
+    top: 22%;
+    left: 4%;
+}
+
+form button{
+    position: absolute;
+    top: 71%;
+    left: 65%;
+    height: 35px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.last{
+    position: absolute;
+    top: 180%;
+    left: 22%;
+    display: flex;
+    height: 600px;
+    width: 900px;
+}
+
+.left{
+     height: 300px;
+     width: 380px;
+     gap: 140px;
+}
+
+.social img{
+    height: 80px;
+    width: 80px;
+    padding: 20px;
+}
+
+.left p{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px;
+}
+
+
+.right{
+    position: absolute;
+    height: 400px;
+    width: 450px;
+    display: flex;
+    left: 47%;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.right ul{
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.right ul li a {
+    text-decoration: none;
+}
+
+.footer-links-content ul li:nth-child(1){
+    font-size: 30px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    margin-left: -20px;
+    margin-top: -10px;
+}

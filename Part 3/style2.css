@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    background-color: #dde5e7;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    margin: 3% 0% 2% 3% ;
+}
+ .logo {
+    margin-left: 5%;
+ }
+.menu-list {
+    padding-left: 60%;
+}
+.menu-list ul {
+    display: flex;
+    margin-left: -45%;
+}
+.menu-list ul li {
+    list-style: none;
+    padding: 10px 30px 5px 5px;
+}
+
+.menu-list ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+    transition:  all 0.5s ease-out;
+}
+
+ .menu-list  li  :hover {
+    font-size: 20px;
+
+}
+
+main {
+    margin: 15%  30% ;
+}
+
+.ads h1{
+    color: rgb(34,188,126);
+    font-weight: bolder;
+}
+
+.ads p {
+    margin-left: -7%;
+    padding-top: 3%;
+}
+
+
+.container  {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.container div {
+    background-color: #f0f4f5;
+    color: #f0f4f5;
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 6px 6px #adafb0;
+    height: 80px;
+    width: 180px;
+    justify-content: space-between;
+}
+
+.container div h1 {
+    background-color: #f0f4f5 ;
+    color: rgb(34,188,126);
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    font-size:x-large ;
+    padding-top: 10px;
+}
+
+.container div h5 {
+    background-color: #f0f4f5 ;
+    color: black;
+    padding-left: 50px;
+}
